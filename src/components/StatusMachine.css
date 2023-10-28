@@ -1,0 +1,33 @@
+.bg-status {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.contrainer-status {}
+
+.machine-name {
+    padding: 10px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.status-all {
+    background-color: rgb(78, 194, 155);
+    color: bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}

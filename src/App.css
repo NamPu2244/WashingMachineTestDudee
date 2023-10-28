@@ -1,0 +1,40 @@
+.washing-machines-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:600px) {
+    .washing-machines-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .washing-machines-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .washing-machines-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .washing-machines-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}

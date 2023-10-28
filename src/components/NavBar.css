@@ -1,0 +1,21 @@
+.nav-bar{
+    background-color: azure;
+    box-shadow: 1px 1px 10px #888888;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-bar-logo{
+    padding: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media only screen and (min-width:600px) {
+    .nav-bar-logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
